@@ -72,10 +72,12 @@ html {
 }
 /* END BOX MODEL SETTINGS */
 
+
+
 body {
   font-size: 16px; /* Base Size */
   /*Setting the base font family*/
-  font-family: "Lato",
+  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
 }
