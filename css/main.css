@@ -204,22 +204,20 @@ p {
   color: #EAC435;
 }
 
+.do-title {
+  color: #03CEA4;
 }
 
-.do {
-  background-color: #03CEA4;
-}
-
-.who {
-  background-color: #345995;
-
-}
-
-.where {
-  background-color: #CA1551;
+.who-title {
+  color: #345995;
 
 }
 
-.music {
-  background-color: #FB4D3D;
+.where-title {
+  color: #CA1551;
+
+}
+
+.music-title{
+  color: #FB4D3D;
 }
