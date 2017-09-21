@@ -87,7 +87,7 @@ body {
 
 }*/
 header {
-  background-image: url(joshua-ness-109309.jpg);
+  background-image: "joshua-ness-109309.jpg";
   width: 100%;
   height: 1600px;
 }
@@ -196,5 +196,27 @@ font: "Bungee";
   color: white;
   font-size: 23px;
   background-color: #eb5256;
+}
 
-  
+.start {
+  background-color: #EAC435;
+
+}
+
+.do {
+  background-color: #03CEA4;
+}
+
+.who {
+  background-color: #345995;
+
+}
+
+.where {
+  background-color: #CA1551;
+
+}
+
+.music {
+  background-color: #FB4D3D;
+}
