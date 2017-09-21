@@ -153,12 +153,11 @@ body {
 
 
 .foodtruck-1 {
-  background-image: image("jenis truck.jpg") no-repeat center center;
+  background: orange url('http://placehold.it/300x300') no-repeat center center;
   background-size: cover;
 }
 
 .foodtruck-content {
-  height: 300px;
   /*position: absolute;
   left: 0;
   top: 0;
