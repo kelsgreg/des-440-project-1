@@ -131,10 +131,43 @@ body {
 }
 
 .live-area {
-  width: 1060px;
+  max-width: 1060px;
   margin: 0 auto;
   background color: white;
 }
+
+.grid-3 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+.grid-3 .grid-item {
+  flex: 0 1 calc(33.3333% - 4em);
+  /*flex: 1 1 100%;*/
+  margin: 1em 2em;
+  /*background-color: orange;*/
+}
+
+
+
+.foodtruck-1 {
+  background: orange url('http://placehold.it/300x300') no-repeat center center;
+  background-size: cover;
+}
+
+.foodtruck-content {
+  height: 300px;
+  /*position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;*/
+}
+
+
+
 .columns-12 {
   width: 100%;
   min-height: 50px;
