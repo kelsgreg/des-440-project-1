@@ -193,13 +193,12 @@ font: "Bungee";
 
 .header {
   image-orientation: top center;
-  color: white;
   font-size: 23px;
   background-color: #eb5256;
 }
 
 .start {
-  background-color: #EAC435;
+  color: #EAC435;
 
 }
 
