@@ -128,6 +128,7 @@ body {
   min-height: 200px;
   /* temporary: */
   background-color: white;
+  padding: 50px;
 }
 
 .live-area {
@@ -148,6 +149,7 @@ body {
   /*flex: 1 1 100%;*/
   margin: 1em 2em;
   /*background-color: orange;*/
+  border-radius: 25px;
 }
 
 
@@ -169,7 +171,7 @@ body {
 }
 
 .foodtruck-4 {
-  background: orange url('../images/grilled cheeserie food.jpg') no-repeat center center;
+  background: orange url('../images/grilled cheeserie food truck.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -180,6 +182,11 @@ body {
 
 .foodtruck-6 {
   background: orange url('../images/blue monkey food truck.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.band-1 {
+  background: orange url('../images/judah and the lion.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -246,7 +253,12 @@ h4, h3, h2, p{
 }
 
 h1{
-font: "Bungee";
+font family: 'Bungee', cursive;
+color: white;
+}
+
+h2{
+  font-size: 48px;
 }
 
 p {
@@ -255,10 +267,15 @@ p {
 }
 
 
-.header {
+.header-title {
+  font-family: 'Bungee', cursive;
+  color: white;
   image-orientation: top center;
-  font-size: 23px;
+  font-size: 60px;
   background-color: #eb5256;
+  background: url('../images/joshua-ness-109309.jpg');
+  height: 100%;
+  width: 100%;
 }
 
 .start-title {
