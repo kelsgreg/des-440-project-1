@@ -157,6 +157,32 @@ body {
   background-size: cover;
 }
 
+.foodtruck-2 {
+  background: orange url('../images/jenis truck.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.foodtruck-3 {
+  background: orange url('../images/frisson soft serve truck.jpg') no-repeat center center;
+  background-size: cover;
+
+}
+
+.foodtruck-4 {
+  background: orange url('../images/grilled cheeserie food.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.foodtruck-5 {
+  background: orange url('../images/franklin-juice-truck-lr.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.foodtruck-6 {
+  background: orange url('../images/blue monkey food truck.jpg') no-repeat center center;
+  background-size: cover;
+}
+
 
 .foodtruck-content {
   /*position: absolute;
