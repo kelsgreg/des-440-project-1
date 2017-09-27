@@ -86,11 +86,7 @@ body {
 /*@media only screen and (min-width: 960px) {
 
 }*/
-header {
-  background-image: "joshua-ness-109309.jpg";
-  width: 100%;
-  height: 1600px;
-}
+
 
 
 
@@ -253,8 +249,8 @@ h4, h3, h2, p{
 }
 
 h1{
-font family: 'Bungee', cursive;
-color: white;
+  font family: 'Bungee', cursive;
+  color:  black;
 }
 
 h2{
@@ -266,16 +262,35 @@ p {
   line-height: 150%;
 }
 
+.header {
+  background-image: url("../images/joshua-ness-109309.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  padding: 0 20px;
+}
 
 .header-title {
   font-family: 'Bungee', cursive;
   color: white;
   image-orientation: top center;
   font-size: 60px;
-  background-color: #eb5256;
-  background: url('../images/joshua-ness-109309.jpg');
+  /*background-color: #eb5256;*/
+  /*background: url('../images/joshua-ness-109309.jpg');*/
   height: 100%;
   width: 100%;
+  margin-top: 15vw;
+}
+.header-title h1 {
+  display: block;
+  text-align: center;
+  line-height: 1;
+  font-size: 8vw;
 }
 
 .start-title {
