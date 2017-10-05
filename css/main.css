@@ -225,6 +225,11 @@ body {
   /*height: 300px;*/
 }
 
+.where {
+  background: orange url('../images/riverfront park image.png') no-repeat center center;
+  bacground-size: cover;
+}
+
 
 
 .columns-12 {
