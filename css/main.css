@@ -187,6 +187,16 @@ body {
   background-size: cover;
 }
 
+.band-2 {
+  background: orange url('../images/lonely biscuits.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.band-3 {
+  background: orange url('../images/maddie and tae.jpg') no-repeat center center;
+  background-size: cover;
+}
+
 .box-content {
   height: 300px;
   opacity: 0;
