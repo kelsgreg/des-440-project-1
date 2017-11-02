@@ -147,9 +147,34 @@ body {
   margin: 1em 2em;
   /*background-color: orange;*/
   border-radius: 25px;
+
+  /*display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;*/
 }
 
+.box-content {
+  height: 300px;
+  opacity: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: opacity 0.5s ease;
 
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.box-content:hover {
+  opacity: 1;
+}
+
+.box-content h3 {
+  margin: 0;
+  font-size: 32px;
+
+}
 
 .foodtruck-1 {
   background: orange url('../images/a-little-italian-truck.jpg') no-repeat center center;
@@ -197,20 +222,7 @@ body {
   background-size: cover;
 }
 
-.box-content {
-  height: 300px;
-  opacity: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  transition: opacity 0.5s ease;
-}
-.box-content:hover {
-  opacity: 1;
-}
 
-.box-content h3 {
-  margin: 0;
-
-}
 
 .foodtruck-content {
   /*position: absolute;
@@ -326,7 +338,9 @@ p {
 .start-title {
   color: #EAC435;
 }
+  
 
+}
 .do-title {
   color: #03CEA4;
 }
