@@ -317,6 +317,27 @@ p {
   padding: 0 20px;
 }
 
+.do {
+  background-image: url("../images/festival.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+}
+
+.where {
+  background-image: url("../images/riverfront park image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  padding: 0 20px;
+
+}
+
 .header-title {
   font-family: 'Bungee', cursive;
   color: white;
@@ -338,7 +359,7 @@ p {
 .start-title {
   color: #EAC435;
 }
-  
+
 
 }
 .do-title {
