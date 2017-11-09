@@ -306,8 +306,8 @@ h4, h3, h2, p{
 
 }
 
-h1{
-  font family: 'Bungee', cursive;
+h1, h4{
+  font-family: 'Bungee', cursive;
   color:  black;
 }
 
@@ -319,6 +319,8 @@ p {
   color: black;
   line-height: 150%;
 }
+
+
 
 .do-para, .where-para {
   color: #f8f9e8;
@@ -340,11 +342,20 @@ p {
 }
 
 .truck-illustration {
-  background-image: url("../images/foodtruck-01.png");
+  /*background-image: url("../images/foodtruck-01.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+
+  background-position: center;*/
   width: 100%;
+  text-align: center;
+}
+
+.truck-illustration img {
+  display: inline-block;
+}
+
+.donate-para {
+
 
 }
 
@@ -355,6 +366,7 @@ p {
   background-position: center center;
   width: 100%;
   height: 400px;
+  color: white;
 }
 
 /* MOBILE STYLES */
@@ -372,7 +384,7 @@ p {
   width: 100%;
   height: 400px;
   justify-content: center;
-  padding: 0 20px;
+
 
 }
 
@@ -401,16 +413,17 @@ p {
 
 }
 .do-title {
-  color: white;
+  color: #f8f9e8;
 }
 
 .who-title {
   color: #345995;
 
+
 }
 
 .where-title {
-  color: #CA1551;
+  color: #f8f9e8;
 
 }
 
@@ -422,5 +435,7 @@ p {
    font-size: 120px;
    font family: 'Bungee', cursive;
    color:  black;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px
 
  }
