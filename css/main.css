@@ -154,6 +154,22 @@ body {
   align-items: center;*/
 }
 
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+    .grid .grid-item {
+      flex: 0 1 100%;
+      margin: 1em 0;
+    }
+}
+
+/* TABLET STYLES */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .grid .grid-item {
+      flex: 0 1 calc(50% - 2em);
+      margin: 1em 1em;
+    }
+}
+
 .box-content {
   height: 300px;
   opacity: 0;
@@ -304,6 +320,12 @@ p {
   line-height: 150%;
 }
 
+.do-para, .where-para {
+  color: #f8f9e8;
+  text-align: center;
+
+}
+
 .header {
   background-image: url("../images/joshua-ness-109309.jpg");
   background-repeat: no-repeat;
@@ -317,6 +339,15 @@ p {
   padding: 0 20px;
 }
 
+.truck-illustration {
+  background-image: url("../images/foodtruck-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+
+}
+
 .do {
   background-image: url("../images/festival.png");
   background-repeat: no-repeat;
@@ -326,8 +357,15 @@ p {
   height: 400px;
 }
 
+/* MOBILE STYLES */
+@media screen and (max-width: 767px) {
+  .do {
+    height: auto;
+  }
+}
+
 .where {
-  background-image: url("../images/riverfront park image.png");
+  background-image: url("../images/riverfront .png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -363,7 +401,7 @@ p {
 
 }
 .do-title {
-  color: #03CEA4;
+  color: white;
 }
 
 .who-title {
@@ -379,3 +417,10 @@ p {
 .music-title{
   color: #FB4D3D;
 }
+
+ h4{
+   font-size: 120px;
+   font family: 'Bungee', cursive;
+   color:  black;
+
+ }
